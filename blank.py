@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 # Title
-st.markdown('<h1 style="text-align: center; color: #1E3A8A; font-size: 2.5rem;">LLM Evaluation Dashboard - Cardiology Cases</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: center; color: #1E3A8A; font-size: 2.5rem;">LLM Evaluation Dashboard</h1>', unsafe_allow_html=True)
 
 # Load and preprocess data
 @st.cache_data
@@ -923,3 +923,4 @@ if st.sidebar.button("📥 Download Filtered Data"):
 # Add reset filters button
 if st.sidebar.button("🔄 Reset All Filters"):
     st.rerun()
+
